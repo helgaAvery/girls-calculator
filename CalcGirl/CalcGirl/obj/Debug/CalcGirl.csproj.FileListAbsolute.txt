@@ -1,0 +1,9 @@
+C:\Users\Татьяна\Downloads\girls-calculator-master\CalcGirl\CalcGirl\bin\Debug\CalcGirl.exe.config
+C:\Users\Татьяна\Downloads\girls-calculator-master\CalcGirl\CalcGirl\bin\Debug\CalcGirl.exe
+C:\Users\Татьяна\Downloads\girls-calculator-master\CalcGirl\CalcGirl\bin\Debug\CalcGirl.pdb
+C:\Users\Татьяна\Downloads\girls-calculator-master\CalcGirl\CalcGirl\obj\Debug\CalcGirl.csprojResolveAssemblyReference.cache
+C:\Users\Татьяна\Downloads\girls-calculator-master\CalcGirl\CalcGirl\obj\Debug\CalcGirl.Form1.resources
+C:\Users\Татьяна\Downloads\girls-calculator-master\CalcGirl\CalcGirl\obj\Debug\CalcGirl.Properties.Resources.resources
+C:\Users\Татьяна\Downloads\girls-calculator-master\CalcGirl\CalcGirl\obj\Debug\CalcGirl.csproj.GenerateResource.Cache
+C:\Users\Татьяна\Downloads\girls-calculator-master\CalcGirl\CalcGirl\obj\Debug\CalcGirl.exe
+C:\Users\Татьяна\Downloads\girls-calculator-master\CalcGirl\CalcGirl\obj\Debug\CalcGirl.pdb

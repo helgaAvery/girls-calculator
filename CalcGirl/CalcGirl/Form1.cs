@@ -21,8 +21,8 @@ namespace CalcGirl
         {
             string first = textBox1.Text;
             string second = textBox2.Text;
-            int firstInt = Convert.ToInt32(first);
-            int secondInt = Convert.ToInt32(second);
+            double firstInt = Convert.ToDouble(first);
+            double secondInt = Convert.ToDouble(second);
             double result = firstInt + secondInt;
             textBox3.Text = result.ToString();
 
@@ -32,33 +32,18 @@ namespace CalcGirl
         {
             string first = textBox1.Text;
             string second = textBox2.Text;
-            int firstInt = Convert.ToInt32(first);
-            int secondInt = Convert.ToInt32(second);
+            double firstInt = Convert.ToDouble(first);
+            double secondInt = Convert.ToDouble(second);
             double result = firstInt * secondInt;
             textBox3.Text = result.ToString();
-        }
-
-        private void textOne(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textTwo(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textThree(object sender, EventArgs e)
-        {
-
         }
 
         private void minus(object sender, EventArgs e)
         {
             string first = textBox1.Text;
             string second = textBox2.Text;
-            float firstInt = Convert.ToInt32(first);
-            float secondInt = Convert.ToInt32(second);
+            double firstInt = Convert.ToDouble(first);
+            double secondInt = Convert.ToDouble(second);
             double result = firstInt - secondInt;
             textBox3.Text = result.ToString();
         }
@@ -67,18 +52,11 @@ namespace CalcGirl
         {
             string first = textBox1.Text;
             string second = textBox2.Text;
-            int firstInt = Convert.ToInt32(first);
-            int secondInt = Convert.ToInt32(second);
+            double firstInt = Convert.ToDouble(first);
+            double secondInt = Convert.ToDouble(second);
             double result = firstInt / secondInt;
             textBox3.Text = result.ToString();
-
+            //textBox3.Text = Convert.ToString(Convert.ToDouble(textBox1.Text) / Convert.ToDouble(textBox2.Text));
         }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-      
     }
 }
