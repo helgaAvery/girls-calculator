@@ -7,3 +7,12 @@ C:\Users\Татьяна\Downloads\girls-calculator-master\CalcGirl\CalcGirl\obj\
 C:\Users\Татьяна\Downloads\girls-calculator-master\CalcGirl\CalcGirl\obj\Debug\CalcGirl.csproj.GenerateResource.Cache
 C:\Users\Татьяна\Downloads\girls-calculator-master\CalcGirl\CalcGirl\obj\Debug\CalcGirl.exe
 C:\Users\Татьяна\Downloads\girls-calculator-master\CalcGirl\CalcGirl\obj\Debug\CalcGirl.pdb
+F:\pi141\girls-calculator\CalcGirl\CalcGirl\bin\Debug\CalcGirl.exe.config
+F:\pi141\girls-calculator\CalcGirl\CalcGirl\bin\Debug\CalcGirl.exe
+F:\pi141\girls-calculator\CalcGirl\CalcGirl\bin\Debug\CalcGirl.pdb
+F:\pi141\girls-calculator\CalcGirl\CalcGirl\obj\Debug\CalcGirl.csprojResolveAssemblyReference.cache
+F:\pi141\girls-calculator\CalcGirl\CalcGirl\obj\Debug\CalcGirl.Form1.resources
+F:\pi141\girls-calculator\CalcGirl\CalcGirl\obj\Debug\CalcGirl.Properties.Resources.resources
+F:\pi141\girls-calculator\CalcGirl\CalcGirl\obj\Debug\CalcGirl.csproj.GenerateResource.Cache
+F:\pi141\girls-calculator\CalcGirl\CalcGirl\obj\Debug\CalcGirl.exe
+F:\pi141\girls-calculator\CalcGirl\CalcGirl\obj\Debug\CalcGirl.pdb
