@@ -4,7 +4,6 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,28 +17,46 @@ namespace CalcGirl
             InitializeComponent();
         }
 
-        
-
-        public void Calculate (object sender, EventArgs e)
+        private void add(object sender, EventArgs e)
         {
             string first = textBox1.Text;
             string second = textBox2.Text;
             double firstInt = Convert.ToDouble(first);
             double secondInt = Convert.ToDouble(second);
-            double result;
-
-            switch (((Button)sender).Name)
-            {
-                case "add": result = firstInt + secondInt; break;
-                case "minus": result = firstInt - secondInt; break;
-                case "multyply": result = firstInt * secondInt; break;
-                case "divide": result = firstInt / secondInt; break;
-                default:
-                    result = 0; break;
-                
-
-            }
+            double result = firstInt + secondInt;
             textBox3.Text = result.ToString();
+
+        }
+
+        private void multyply(object sender, EventArgs e)
+        {
+            string first = textBox1.Text;
+            string second = textBox2.Text;
+            double firstInt = Convert.ToDouble(first);
+            double secondInt = Convert.ToDouble(second);
+            double result = firstInt * secondInt;
+            textBox3.Text = result.ToString();
+        }
+
+        private void minus(object sender, EventArgs e)
+        {
+            string first = textBox1.Text;
+            string second = textBox2.Text;
+            double firstInt = Convert.ToDouble(first);
+            double secondInt = Convert.ToDouble(second);
+            double result = firstInt - secondInt;
+            textBox3.Text = result.ToString();
+        }
+
+        private void divide(object sender, EventArgs e)
+        {
+            string first = textBox1.Text;
+            string second = textBox2.Text;
+            double firstInt = Convert.ToDouble(first);
+            double secondInt = Convert.ToDouble(second);
+            double result = firstInt / secondInt;
+            textBox3.Text = result.ToString();
+            //textBox3.Text = Convert.ToString(Convert.ToDouble(textBox1.Text) / Convert.ToDouble(textBox2.Text));
         }
     }
 }
