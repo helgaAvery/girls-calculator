@@ -20,6 +20,10 @@ namespace CalcGirl.Double
                     return new XinY();
                 case "Log":
                     return new Log();
+                case "SqrtY":
+                    return new SqrtY();
+                case "Ost":
+                    return new Ost();
 
                 default: throw new ArgumentException("Упс, неизвестная операция...", "name");
 

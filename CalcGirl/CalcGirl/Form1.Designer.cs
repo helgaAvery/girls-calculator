@@ -45,11 +45,21 @@
             this.Exp = new System.Windows.Forms.Button();
             this.XinY = new System.Windows.Forms.Button();
             this.Log = new System.Windows.Forms.Button();
+            this.SqrtY = new System.Windows.Forms.Button();
+            this.Ost = new System.Windows.Forms.Button();
+            this.XinThree = new System.Windows.Forms.Button();
+            this.Obr = new System.Windows.Forms.Button();
+            this.Log10 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.Log10);
+            this.panel1.Controls.Add(this.Obr);
+            this.panel1.Controls.Add(this.XinThree);
+            this.panel1.Controls.Add(this.Ost);
+            this.panel1.Controls.Add(this.SqrtY);
             this.panel1.Controls.Add(this.Log);
             this.panel1.Controls.Add(this.XinY);
             this.panel1.Controls.Add(this.Exp);
@@ -222,6 +232,56 @@
             this.Log.UseVisualStyleBackColor = true;
             this.Log.Click += new System.EventHandler(this.Calculate);
             // 
+            // SqrtY
+            // 
+            this.SqrtY.Location = new System.Drawing.Point(109, 344);
+            this.SqrtY.Name = "SqrtY";
+            this.SqrtY.Size = new System.Drawing.Size(88, 42);
+            this.SqrtY.TabIndex = 27;
+            this.SqrtY.Text = "SqrtY";
+            this.SqrtY.UseVisualStyleBackColor = true;
+            this.SqrtY.Click += new System.EventHandler(this.Calculate);
+            // 
+            // Ost
+            // 
+            this.Ost.Location = new System.Drawing.Point(15, 392);
+            this.Ost.Name = "Ost";
+            this.Ost.Size = new System.Drawing.Size(88, 42);
+            this.Ost.TabIndex = 28;
+            this.Ost.Text = "Ost";
+            this.Ost.UseVisualStyleBackColor = true;
+            this.Ost.Click += new System.EventHandler(this.Calculate);
+            // 
+            // XinThree
+            // 
+            this.XinThree.Location = new System.Drawing.Point(109, 392);
+            this.XinThree.Name = "XinThree";
+            this.XinThree.Size = new System.Drawing.Size(88, 42);
+            this.XinThree.TabIndex = 29;
+            this.XinThree.Text = "XinThree";
+            this.XinThree.UseVisualStyleBackColor = true;
+            this.XinThree.Click += new System.EventHandler(this.SingleCalculate);
+            // 
+            // Obr
+            // 
+            this.Obr.Location = new System.Drawing.Point(15, 440);
+            this.Obr.Name = "Obr";
+            this.Obr.Size = new System.Drawing.Size(88, 42);
+            this.Obr.TabIndex = 30;
+            this.Obr.Text = "Obr";
+            this.Obr.UseVisualStyleBackColor = true;
+            this.Obr.Click += new System.EventHandler(this.SingleCalculate);
+            // 
+            // Log10
+            // 
+            this.Log10.Location = new System.Drawing.Point(109, 440);
+            this.Log10.Name = "Log10";
+            this.Log10.Size = new System.Drawing.Size(88, 42);
+            this.Log10.TabIndex = 31;
+            this.Log10.Text = "Log10";
+            this.Log10.UseVisualStyleBackColor = true;
+            this.Log10.Click += new System.EventHandler(this.SingleCalculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -255,6 +315,11 @@
         private System.Windows.Forms.Button Exp;
         private System.Windows.Forms.Button XinY;
         private System.Windows.Forms.Button Log;
+        private System.Windows.Forms.Button SqrtY;
+        private System.Windows.Forms.Button Ost;
+        private System.Windows.Forms.Button XinThree;
+        private System.Windows.Forms.Button Obr;
+        private System.Windows.Forms.Button Log10;
     }
 }
 

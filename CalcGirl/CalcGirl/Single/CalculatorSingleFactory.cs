@@ -22,6 +22,12 @@ namespace CalcGirl.Single
                     return new ATan();
                 case "Exp":
                     return new Exp();
+                case "XinThree":
+                    return new XinThree();
+                case "Obr":
+                    return new Obr();
+                case "Log10":
+                    return new Log10();
 
 
 
