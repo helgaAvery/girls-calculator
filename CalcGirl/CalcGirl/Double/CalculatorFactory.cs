@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CalcGirl
 {
-    class CalculatorFactory
+   public static class CalculatorFactory
     {
-        public ICalculator CreateCalculator(string name)
+        public static ICalculator CreateCalculator(string name)
         {
             switch (name)
             {

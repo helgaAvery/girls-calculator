@@ -55,9 +55,9 @@
             // 
             // minus
             // 
-            this.minus.Location = new System.Drawing.Point(159, 111);
+            this.minus.Location = new System.Drawing.Point(159, 108);
             this.minus.Name = "minus";
-            this.minus.Size = new System.Drawing.Size(37, 37);
+            this.minus.Size = new System.Drawing.Size(37, 40);
             this.minus.TabIndex = 17;
             this.minus.Text = "-";
             this.minus.UseVisualStyleBackColor = true;
@@ -65,9 +65,9 @@
             // 
             // divide
             // 
-            this.divide.Location = new System.Drawing.Point(109, 109);
+            this.divide.Location = new System.Drawing.Point(109, 108);
             this.divide.Name = "divide";
-            this.divide.Size = new System.Drawing.Size(37, 37);
+            this.divide.Size = new System.Drawing.Size(37, 38);
             this.divide.TabIndex = 16;
             this.divide.Text = "/";
             this.divide.UseVisualStyleBackColor = true;

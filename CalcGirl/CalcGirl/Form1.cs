@@ -16,20 +16,12 @@ namespace CalcGirl
         {
             string first = textBox1.Text;
             string second = textBox2.Text;
-            double firstInt = Convert.ToDouble(first);
-            double secondInt = Convert.ToDouble(second);
+            double firstDouble = Convert.ToDouble(first);
+            double secondDouble = Convert.ToDouble(second);
             double result;
 
-            switch (((Button)sender).Name)
-            {
-                case "add": result = firstInt + secondInt; break;
-                case "minus": result = firstInt - secondInt; break;
-                case "multyply": result = firstInt * secondInt; break;
-                case "divide": result = firstInt / secondInt; break;
-                default:
-                    result = 0; break;
-              
-            }
+            ICalculator calc = CalculatorFactory.CreateCalculator(((Button) sender).Name);
+            result = calc.Calculate(firstDouble, secondDouble);
             textBox3.Text = result.ToString();
 
         }
