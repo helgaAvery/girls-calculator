@@ -1,4 +1,4 @@
-﻿namespace CalcGirl
+﻿namespace CalcGirl.Double
 {
     public interface ICalculator
     {

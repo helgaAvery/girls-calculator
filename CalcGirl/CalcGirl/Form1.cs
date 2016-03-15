@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
+using CalcGirl.Double;
+using CalcGirl.Single;
 
 namespace CalcGirl
 {

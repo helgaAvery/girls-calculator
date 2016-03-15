@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CalcGirl
+namespace CalcGirl.Single
 {
     public static class CalculatorSingleFactory
     {
@@ -16,6 +16,14 @@ namespace CalcGirl
                     return new Sqrt();
                 case "Tan":
                     return new Tan();
+                case "Mod":
+                    return new Mod();
+                case "ATan":
+                    return new ATan();
+                case "Exp":
+                    return new Exp();
+
+
 
                default: throw new ArgumentException("Упс, неизвестная операция...", "name");
 

@@ -1,6 +1,6 @@
 using System;
 
-namespace CalcGirl
+namespace CalcGirl.Single
 {
     public class Sin : ISingleCalculator
     {

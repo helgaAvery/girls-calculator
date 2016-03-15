@@ -1,4 +1,4 @@
-﻿namespace CalcGirl
+﻿namespace CalcGirl.Double
 {
     class Minus: ICalculator
     {

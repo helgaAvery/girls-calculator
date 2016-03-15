@@ -2,11 +2,11 @@
 
 namespace CalcGirl.Single
 {
-    public class Sqrt : ISingleCalculator
+    public class Exp : ISingleCalculator
     {
         public double Calculate(double first)
         {
-            return Math.Sqrt(first);
+            return Math.Exp(first);
         }
     }
 }

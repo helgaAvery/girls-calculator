@@ -1,4 +1,4 @@
-﻿namespace CalcGirl
+﻿namespace CalcGirl.Single
 {
     public interface ISingleCalculator
     {
