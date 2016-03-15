@@ -8,17 +8,16 @@ namespace CalcGirl
         {
             switch (name)
             {
-                case "sin": 
+                case "Sin": 
                     return new Sin();
-                case "cos": 
+                case "Cos": 
                     return new  Cos();
-                case "sqrt": 
+                case "Sqrt": 
                     return new Sqrt();
-                case "tan":
+                case "Tan":
                     return new Tan();
 
-
-                default: throw new ArgumentException("Упс, неизвестная операция...", "name");
+               default: throw new ArgumentException("Упс, неизвестная операция...", "name");
 
             }
         }

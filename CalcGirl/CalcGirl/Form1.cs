@@ -25,5 +25,17 @@ namespace CalcGirl
             textBox3.Text = result.ToString();
 
         }
+
+        public void SingleCalculate(object sender, EventArgs e)
+        {
+            string first = textBox1.Text;
+           double firstDouble = Convert.ToDouble(first);
+            double result;
+
+            ISingleCalculator calc = CalculatorSingleFactory.CreateCalculator(((Button)sender).Name);
+            result = calc.Calculate(firstDouble);
+            textBox3.Text = result.ToString();
+
+        }
     }
 }

@@ -36,11 +36,19 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.add = new System.Windows.Forms.Button();
             this.multyply = new System.Windows.Forms.Button();
+            this.Sin = new System.Windows.Forms.Button();
+            this.Cos = new System.Windows.Forms.Button();
+            this.Tan = new System.Windows.Forms.Button();
+            this.Sqrt = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.Sqrt);
+            this.panel1.Controls.Add(this.Tan);
+            this.panel1.Controls.Add(this.Cos);
+            this.panel1.Controls.Add(this.Sin);
             this.panel1.Controls.Add(this.minus);
             this.panel1.Controls.Add(this.divide);
             this.panel1.Controls.Add(this.textBox3);
@@ -50,7 +58,7 @@
             this.panel1.Controls.Add(this.multyply);
             this.panel1.Location = new System.Drawing.Point(13, 13);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(218, 192);
+            this.panel1.Size = new System.Drawing.Size(218, 259);
             this.panel1.TabIndex = 0;
             // 
             // minus
@@ -114,11 +122,51 @@
             this.multyply.UseVisualStyleBackColor = true;
             this.multyply.Click += new System.EventHandler(this.Calculate);
             // 
+            // Sin
+            // 
+            this.Sin.Location = new System.Drawing.Point(15, 153);
+            this.Sin.Name = "Sin";
+            this.Sin.Size = new System.Drawing.Size(88, 42);
+            this.Sin.TabIndex = 18;
+            this.Sin.Text = "Sin";
+            this.Sin.UseVisualStyleBackColor = true;
+            this.Sin.Click += new System.EventHandler(this.SingleCalculate);
+            // 
+            // Cos
+            // 
+            this.Cos.Location = new System.Drawing.Point(109, 152);
+            this.Cos.Name = "Cos";
+            this.Cos.Size = new System.Drawing.Size(88, 42);
+            this.Cos.TabIndex = 19;
+            this.Cos.Text = "Cos";
+            this.Cos.UseVisualStyleBackColor = true;
+            this.Cos.Click += new System.EventHandler(this.SingleCalculate);
+            // 
+            // Tan
+            // 
+            this.Tan.Location = new System.Drawing.Point(15, 201);
+            this.Tan.Name = "Tan";
+            this.Tan.Size = new System.Drawing.Size(88, 42);
+            this.Tan.TabIndex = 20;
+            this.Tan.Text = "Tan";
+            this.Tan.UseVisualStyleBackColor = true;
+            this.Tan.Click += new System.EventHandler(this.SingleCalculate);
+            // 
+            // Sqrt
+            // 
+            this.Sqrt.Location = new System.Drawing.Point(108, 200);
+            this.Sqrt.Name = "Sqrt";
+            this.Sqrt.Size = new System.Drawing.Size(88, 42);
+            this.Sqrt.TabIndex = 21;
+            this.Sqrt.Text = "Sqrt";
+            this.Sqrt.UseVisualStyleBackColor = true;
+            this.Sqrt.Click += new System.EventHandler(this.SingleCalculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(239, 212);
+            this.ClientSize = new System.Drawing.Size(239, 281);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -138,6 +186,10 @@
         private System.Windows.Forms.Button divide;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button Sqrt;
+        private System.Windows.Forms.Button Tan;
+        private System.Windows.Forms.Button Cos;
+        private System.Windows.Forms.Button Sin;
     }
 }
 
