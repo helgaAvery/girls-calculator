@@ -49,7 +49,7 @@
     <Compile Include="Double\intDevide.cs" />
     <Compile Include="Double\Log.cs" />
     <Compile Include="Double\Ost.cs" />
-    <Compile Include="Double\Procent.cs" />
+    <Compile Include="Double\Percent.cs" />
     <Compile Include="Double\SqrtY.cs" />
     <Compile Include="Double\XinY.cs" />
     <Compile Include="Single\ATan.cs" />
@@ -64,7 +64,7 @@
     <Compile Include="Double\ICalculator.cs" />
     <Compile Include="Single\Cos.cs" />
     <Compile Include="Single\Exp.cs" />
-    <Compile Include="Single\in10x.cs" />
+    <Compile Include="Single\Power10X.cs" />
     <Compile Include="Single\ISingleCalculator.cs" />
     <Compile Include="Double\Minus.cs" />
     <Compile Include="Double\Multyply.cs" />

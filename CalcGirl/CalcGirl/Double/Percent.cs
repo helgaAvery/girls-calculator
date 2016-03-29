@@ -1,10 +1,10 @@
 namespace CalcGirl.Double
 {
-    public class Procent : ICalculator
+    public class Percent : ICalculator
     {
         public double Calculate(double first, double second)
         {
-            return ((first)/100)*second;
+            return first * second / 100;
         }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace CalcGirl.Single
 {
-    public class in10x : ISingleCalculator
+    public class Power10X : ISingleCalculator
     {
         public double Calculate(double first)
         {

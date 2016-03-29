@@ -31,7 +31,7 @@ namespace CalcGirl.Single
                 case "Xinx":
                     return new Xinx ();
                 case "in10x":
-                    return new in10x();
+                    return new Power10X();
                 case "lnx":
                     return new lnx();
 
