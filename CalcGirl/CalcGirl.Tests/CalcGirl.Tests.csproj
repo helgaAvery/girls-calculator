@@ -45,10 +45,15 @@
   <ItemGroup>
     <Compile Include="Double\AddTests.cs" />
     <Compile Include="Double\intDevideTests.cs" />
+    <Compile Include="Double\LogTests.cs" />
+    <Compile Include="Double\OstTests.cs" />
     <Compile Include="Double\PrecentTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Single\ExpTests.cs" />
     <Compile Include="Single\lnxTests.cs" />
+    <Compile Include="Single\ObrTests.cs" />
     <Compile Include="Single\Power10XTests.cs" />
+    <Compile Include="Single\SqrtTests.cs" />
     <Compile Include="Single\XinxTests.cs" />
   </ItemGroup>
   <ItemGroup>
