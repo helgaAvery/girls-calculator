@@ -48,12 +48,17 @@
     <Compile Include="Double\LogTests.cs" />
     <Compile Include="Double\OstTests.cs" />
     <Compile Include="Double\PrecentTests.cs" />
+    <Compile Include="Double\SqrtYTests.cs" />
+    <Compile Include="Double\XinYTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Single\AtanTests.cs" />
     <Compile Include="Single\ExpTests.cs" />
     <Compile Include="Single\lnxTests.cs" />
+    <Compile Include="Single\Log10Tests.cs" />
     <Compile Include="Single\ObrTests.cs" />
     <Compile Include="Single\Power10XTests.cs" />
     <Compile Include="Single\SqrtTests.cs" />
+    <Compile Include="Single\XinThreeTests.cs" />
     <Compile Include="Single\XinxTests.cs" />
   </ItemGroup>
   <ItemGroup>
