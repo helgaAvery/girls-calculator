@@ -1,6 +1,6 @@
 ﻿namespace CalcGirl.Double
 {
-    class Add: ICalculator
+    public class Add: ICalculator
     {
         public double Calculate(double first, double second)
         {
