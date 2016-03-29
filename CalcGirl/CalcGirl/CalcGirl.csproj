@@ -46,8 +46,10 @@
   <ItemGroup>
     <Compile Include="Double\Add.cs" />
     <Compile Include="Double\CalculatorFactory.cs" />
+    <Compile Include="Double\intDevide.cs" />
     <Compile Include="Double\Log.cs" />
     <Compile Include="Double\Ost.cs" />
+    <Compile Include="Double\Procent.cs" />
     <Compile Include="Double\SqrtY.cs" />
     <Compile Include="Double\XinY.cs" />
     <Compile Include="Single\ATan.cs" />
@@ -62,11 +64,13 @@
     <Compile Include="Double\ICalculator.cs" />
     <Compile Include="Single\Cos.cs" />
     <Compile Include="Single\Exp.cs" />
+    <Compile Include="Single\in10x.cs" />
     <Compile Include="Single\ISingleCalculator.cs" />
     <Compile Include="Double\Minus.cs" />
     <Compile Include="Double\Multyply.cs" />
     <Compile Include="Double\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Single\lnx.cs" />
     <Compile Include="Single\Log10.cs" />
     <Compile Include="Single\Mod.cs" />
     <Compile Include="Single\Obr.cs" />
@@ -74,6 +78,7 @@
     <Compile Include="Single\Sqrt.cs" />
     <Compile Include="Single\Tan.cs" />
     <Compile Include="Single\XinThree.cs" />
+    <Compile Include="Single\Xinx.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

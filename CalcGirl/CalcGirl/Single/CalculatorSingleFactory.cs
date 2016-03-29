@@ -28,7 +28,12 @@ namespace CalcGirl.Single
                     return new Obr();
                 case "Log10":
                     return new Log10();
-
+                case "Xinx":
+                    return new Xinx ();
+                case "in10x":
+                    return new in10x();
+                case "lnx":
+                    return new lnx();
 
 
                default: throw new ArgumentException("Упс, неизвестная операция...", "name");

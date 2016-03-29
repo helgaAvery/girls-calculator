@@ -24,6 +24,10 @@ namespace CalcGirl.Double
                     return new SqrtY();
                 case "Ost":
                     return new Ost();
+                case "Procent":
+                    return new Procent();
+                case "intDevide":
+                    return new intDevide();
 
                 default: throw new ArgumentException("Упс, неизвестная операция...", "name");
 
