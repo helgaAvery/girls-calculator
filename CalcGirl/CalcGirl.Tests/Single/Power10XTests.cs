@@ -8,8 +8,6 @@ namespace CalcGirl.Tests.Single
     {
         [TestCase(3, 1000)]
         [TestCase(5, 100000)]
-        [TestCase(-1, 0)]
-        [TestCase(0, -56)]
         public void Power10XTest(double first, double expected)
         {
             ISingleCalculator calculator = new Power10X();

@@ -7,12 +7,13 @@ namespace CalcGirl.Tests.Single
     [TestFixture()]
     public class XinxTests
     {
-        [Test]
-        public void SimpleTest()
+        [TestCase(2, 4)]
+        [TestCase(5, 25)]
+        public void XinxTest(double first, double expected)
         {
             ISingleCalculator calculator = new Xinx();
-            double result = calculator.Calculate(3);
-            Assert.AreEqual(9, result);
+            double result = calculator.Calculate(first);
+            Assert.AreEqual(expected, result);
         }
     }
 }

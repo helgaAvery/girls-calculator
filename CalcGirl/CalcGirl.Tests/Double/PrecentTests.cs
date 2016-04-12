@@ -8,8 +8,6 @@ namespace CalcGirl.Tests.Double
     {
         [TestCase(12,100,12)]
         [TestCase(85, 456, 387.6)]
-        [TestCase(7, 49, 0.5)]
-        [TestCase(0, 56, 0)]
         public void PercentTest(double first, double second, double expected)
         {
             ICalculator calculator = new Percent();

@@ -7,9 +7,6 @@ namespace CalcGirl.Tests.Single
     public class ExpTests
     {
         [TestCase(0, 1)]
-        [TestCase(10, 22026, 4)]
-        [TestCase(6,4)]
-        [TestCase(34, 0.897)]
         public void ExpTest(double first, double expected)
         {
             ISingleCalculator calculator = new Exp();

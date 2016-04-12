@@ -6,12 +6,13 @@ namespace CalcGirl.Tests.Single
     [TestFixture]
     public class XinThreeTests
     {
-        [Test]
-        public void SimpleTest()
+        [TestCase(2,8)]
+        [TestCase(5,125)]
+        public void XinThreeTest(double first, double expected)
         {
             ISingleCalculator calculator = new XinThree();
-            double result = calculator.Calculate(2);
-            Assert.AreEqual(8, result);
+            double result = calculator.Calculate(first);
+            Assert.AreEqual(expected, result);
         }
     }
 }

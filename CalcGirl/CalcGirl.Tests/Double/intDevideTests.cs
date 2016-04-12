@@ -8,8 +8,6 @@ namespace CalcGirl.Tests.Double
     public class intDevideTests
     {
         [TestCase(7, 4, 1)]
-        [TestCase(85897658.45, 515385950.7, 6)]
-        [TestCase(-0.9, 45, 905)]
         [TestCase(0, 56, 0)]
         public void IntDevideTest(double first, double second, double expected)
         {

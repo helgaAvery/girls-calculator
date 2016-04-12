@@ -8,9 +8,6 @@ namespace CalcGirl.Tests.Single
     public class AtanTests
     {
         [TestCase(0,0)]
-        [TestCase(0, 6)]
-        [TestCase(0, 4)]
-        [TestCase(0, 0.09)]
         public void ATanTest(double first, double expected)
         {
           

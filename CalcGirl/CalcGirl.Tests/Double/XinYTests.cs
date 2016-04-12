@@ -6,12 +6,13 @@ namespace CalcGirl.Tests.Double
     [TestFixture]
     public class XinYTests
     {
-        [Test]
-        public void SimpleTest()
+       [TestCase(5, 6, 15625)]
+        [TestCase(2, 3, 8)]
+        public void XinYTest(double first, double second, double expected)
         {
             ICalculator calculator = new XinY();
-            double result = calculator.Calculate(5, 2);
-            Assert.AreEqual(25, result);
+            double result = calculator.Calculate(first, second);
+            Assert.AreEqual(expected, result);
         }
     }
 }

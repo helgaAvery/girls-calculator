@@ -7,12 +7,13 @@ namespace CalcGirl.Tests.Single
     public class SqrtTests
     {
 
-        [Test]
-        public void SimpleTest()
+        [TestCase(4, 2)]
+        [TestCase(25, 5)]
+        public void SqrtTest(double first, double expected)
         {
             ISingleCalculator calculator = new Sqrt();
-            double result = calculator.Calculate(4);
-            Assert.AreEqual(2, result);
+            double result = calculator.Calculate(first);
+            Assert.AreEqual(expected, result);
         }
     }
 }
