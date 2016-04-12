@@ -6,12 +6,15 @@ namespace CalcGirl.Tests.Single
     [TestFixture]
     public class ObrTests
     {
-        [Test]
-        public void SimpleTest()
+        [TestCase(2, 0.5)]
+        [TestCase(4,0.25)]
+        [TestCase(7.3441, 0.5)]
+        [TestCase(0, -56)]
+        public void ObrTest(double first, double expected)
         {
             ISingleCalculator calculator = new Obr();
-            double result = calculator.Calculate(5);
-            Assert.AreEqual(0.2, result);
+            double result = calculator.Calculate(first);
+            Assert.AreEqual(expected, result);
         }
     }
 }

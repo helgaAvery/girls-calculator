@@ -7,12 +7,15 @@ namespace CalcGirl.Tests.Double
     public class OstTests
     {
 
-        [Test]
-        public void SimpleTest()
+        [TestCase(7, 4, 3)]
+        [TestCase(86, 7,2)]
+        [TestCase(7, 49, 1)]
+        [TestCase(0, 56, 0)]
+        public void OstTest(double first, double second, double expected)
         {
             ICalculator calculator = new Ost();
-            double result = calculator.Calculate(7,4);
-            Assert.AreEqual(3, result);
+            double result = calculator.Calculate(first, second);
+            Assert.AreEqual(expected, result);
         }
     }
 }
