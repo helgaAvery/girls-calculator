@@ -1,18 +1,23 @@
 ﻿using CalcGirl.Single;
 using NUnit.Framework;
+using NUnit.Framework.Internal.Builders;
 
 namespace CalcGirl.Tests.Single
 {
     [TestFixture]
     public class AtanTests
     {
-
-        [Test]
-        public void SimpleTest()
+        [TestCase(0,0)]
+        [TestCase(0, 6)]
+        [TestCase(0, 4)]
+        [TestCase(0, 0.09)]
+        public void ATanTest(double first, double expected)
         {
+          
             ISingleCalculator calculator = new ATan();
-            double result = calculator.Calculate(0);
-            Assert.AreEqual(0, result);
+            double result = calculator.Calculate(first);
+            Assert.AreEqual(expected, result);
+            
         }
     }
 }
