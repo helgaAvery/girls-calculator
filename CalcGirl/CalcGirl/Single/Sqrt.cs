@@ -4,6 +4,11 @@ namespace CalcGirl.Single
 {
     public class Sqrt : ISingleCalculator
     {
+        /// <summary>
+        /// Функция извлекает корень из числа
+        /// </summary>
+        /// <param name="first"></param>
+        /// <returns></returns>
         public double Calculate(double first)
         {
             if (first < 0)

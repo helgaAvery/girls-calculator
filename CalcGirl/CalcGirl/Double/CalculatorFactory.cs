@@ -4,6 +4,11 @@ namespace CalcGirl.Double
 {
    public static class CalculatorFactory
     {
+       /// <summary>
+       /// Фабрика функций с двумя аргументами
+       /// </summary>
+       /// <param name="name"></param>
+       /// <returns></returns>
         public static ICalculator CreateCalculator(string name)
         {
             switch (name)

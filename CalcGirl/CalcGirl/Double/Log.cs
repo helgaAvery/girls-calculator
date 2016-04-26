@@ -4,6 +4,12 @@ namespace CalcGirl.Double
 {
     public class Log : ICalculator
     {
+        /// <summary>
+        /// Функция извлечения любого логарифма
+        /// </summary>
+        /// <param name="first"></param>
+        /// <param name="second"></param>
+        /// <returns></returns>
         public double Calculate(double first, double second)
         {
             if (first < 0)
