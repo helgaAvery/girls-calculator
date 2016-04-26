@@ -1,4 +1,5 @@
-﻿using CalcGirl.Single;
+﻿using System;
+using CalcGirl.Single;
 using NUnit.Framework;
 
 namespace CalcGirl.Tests.Single
@@ -13,7 +14,14 @@ namespace CalcGirl.Tests.Single
             ISingleCalculator calculator = new Log10();
             double result = calculator.Calculate(first);
             Assert.AreEqual(expected, result);
+
             
+        }
+        [Test]
+        public void NegativeLn10XTest()
+        {
+            ISingleCalculator calculator = new Log10();
+            Assert.Throws<ArgumentException>(() => calculator.Calculate(-1));
         }
     }
 }

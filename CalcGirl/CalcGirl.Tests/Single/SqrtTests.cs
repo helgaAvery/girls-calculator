@@ -1,4 +1,5 @@
-﻿using CalcGirl.Single;
+﻿using System;
+using CalcGirl.Single;
 using NUnit.Framework;
 
 namespace CalcGirl.Tests.Single
@@ -15,5 +16,12 @@ namespace CalcGirl.Tests.Single
             double result = calculator.Calculate(first);
             Assert.AreEqual(expected, result);
         }
+        [Test]
+        public void NegativeSqrtTest()
+        {
+            ISingleCalculator calculator = new Sqrt();
+            Assert.Throws<ArgumentException>(() => calculator.Calculate(-2));
+        }
     }
+
 }

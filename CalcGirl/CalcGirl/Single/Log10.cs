@@ -6,6 +6,10 @@ namespace CalcGirl.Single
     {
         public double Calculate(double first)
         {
+            if (first < 0)
+            {
+                throw new ArgumentException("Число под логарифмом не может быть отрицательным", "first");
+            }
             return Math.Log10(first);
         }
     }
