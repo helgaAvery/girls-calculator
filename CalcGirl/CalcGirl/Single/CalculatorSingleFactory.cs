@@ -4,6 +4,11 @@ namespace CalcGirl.Single
 {
     public static class CalculatorSingleFactory
     {
+        /// <summary>
+        /// Фабрика для функций с одним аргументом
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
         public static ISingleCalculator CreateCalculator(string name)
         {
             switch (name)

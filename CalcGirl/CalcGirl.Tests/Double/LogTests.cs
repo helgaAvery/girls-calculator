@@ -7,6 +7,12 @@ namespace CalcGirl.Tests.Double
     [TestFixture]
     public class LogTests
     {
+        /// <summary>
+        /// Тест для функции извлечения логарифма
+        /// </summary>
+        /// <param name="first"></param>
+        /// <param name="second"></param>
+        /// <param name="expected"></param>
         [TestCase(2, 4, 0.5)]
         [TestCase(7, 49, 0.5)]
       
@@ -16,7 +22,9 @@ namespace CalcGirl.Tests.Double
             double result = calculator.Calculate(first, second);
             Assert.AreEqual(expected, result);
         }
-
+        /// <summary>
+        /// Проверка на исключение: отрицательное число
+        /// </summary>
         [Test]
         public void NegativeTest()
         {

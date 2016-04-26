@@ -2,8 +2,14 @@
 
 namespace CalcGirl.Single
 {
+
     public class lnx : ISingleCalculator
     {
+        /// <summary>
+        /// Функция вычисления натурального логарифма
+        /// </summary>
+        /// <param name="first"></param>
+        /// <returns></returns>
         public double Calculate(double first)
         {
             if (first < 0)
