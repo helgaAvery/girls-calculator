@@ -15,3 +15,4 @@ F:\pi141\girls-calculator\CalcGirl\CalcGirl\obj\Debug\CalcGirl.Properties.Resour
 F:\pi141\girls-calculator\CalcGirl\CalcGirl\obj\Debug\CalcGirl.csproj.GenerateResource.Cache
 F:\pi141\girls-calculator\CalcGirl\CalcGirl\obj\Debug\CalcGirl.exe
 F:\pi141\girls-calculator\CalcGirl\CalcGirl\obj\Debug\CalcGirl.pdb
+F:\pi141\girls-calculator\CalcGirl\CalcGirl\obj\Debug\CalcGirl.csprojResolveAssemblyReference.cache

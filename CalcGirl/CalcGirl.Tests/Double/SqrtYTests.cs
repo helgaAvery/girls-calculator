@@ -1,4 +1,5 @@
-﻿using CalcGirl.Double;
+﻿using System;
+using CalcGirl.Double;
 using NUnit.Framework;
 
 namespace CalcGirl.Tests.Double
@@ -11,8 +12,16 @@ namespace CalcGirl.Tests.Double
         public void SqrtYTest(double first, double second, double expected)
         {
             ICalculator calculator = new SqrtY();
+
             double result = calculator.Calculate(first, second);
             Assert.AreEqual(expected, result);
+        }
+
+         [Test]
+        public void NegativeYTest()
+        {
+            ICalculator calculator = new SqrtY();
+            Assert.Throws<ArgumentException>(() => calculator.Calculate(-4, 2));
         }
     }
 }

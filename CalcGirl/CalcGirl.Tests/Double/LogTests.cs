@@ -1,4 +1,5 @@
-﻿using CalcGirl.Double;
+﻿using System;
+using CalcGirl.Double;
 using NUnit.Framework;
 
 namespace CalcGirl.Tests.Double
@@ -14,6 +15,14 @@ namespace CalcGirl.Tests.Double
             ICalculator calculator = new Log();
             double result = calculator.Calculate(first, second);
             Assert.AreEqual(expected, result);
+        }
+
+        [Test]
+        public void NegativeTest()
+        {
+            ICalculator calculator = new Log();
+            Assert.Throws<ArgumentException>(() => calculator.Calculate(3 ,-2));
+            
         }
     }
 }
