@@ -7,6 +7,11 @@ namespace CalcGirl.Tests.Single
     [TestFixture]
     public class Log10Tests
     {
+        /// <summary>
+        /// Тест для функции извлечения десятичного логарифма
+        /// </summary>
+        /// <param name="first"></param>
+        /// <param name="expected"></param>
         [TestCase(10, 1)]
 
         public void Log10Test(double first, double expected)
@@ -17,6 +22,9 @@ namespace CalcGirl.Tests.Single
 
             
         }
+        /// <summary>
+        /// Проверка на исключение: отрицательное число
+        /// </summary>
         [Test]
         public void NegativeLn10XTest()
         {

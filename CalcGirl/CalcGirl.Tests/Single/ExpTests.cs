@@ -6,6 +6,11 @@ namespace CalcGirl.Tests.Single
     [TestFixture]
     public class ExpTests
     {
+        /// <summary>
+        /// Тест для функции возведения экспаненты в любую степень
+        /// </summary>
+        /// <param name="first"></param>
+        /// <param name="expected"></param>
         [TestCase(0, 1)]
         public void ExpTest(double first, double expected)
         {

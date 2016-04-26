@@ -8,6 +8,11 @@ namespace CalcGirl.Tests.Single
     [TestFixture]
     public class lnxTests
     {
+        /// <summary>
+        /// Тест для функции извлечения натурального логарифма
+        /// </summary>
+        /// <param name="first"></param>
+        /// <param name="expected"></param>
         [TestCase(2.71, 1)]
         [TestCase(7.3441, 0.5)]
         public void LnXTest(double first, double expected)
@@ -16,7 +21,9 @@ namespace CalcGirl.Tests.Single
             double result = calculator.Calculate(first);
             Assert.AreEqual(expected, result);
         }
-
+        /// <summary>
+        /// Проверка на исключение: отрицательное число
+        /// </summary>
         [Test]
         public void NegativeLnXTest()
         {
