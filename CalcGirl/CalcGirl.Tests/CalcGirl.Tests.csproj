@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Double\AddTests.cs" />
+    <Compile Include="Double\CalculatorFactoryTests.cs" />
     <Compile Include="Double\intDevideTests.cs" />
     <Compile Include="Double\LogTests.cs" />
     <Compile Include="Double\OstTests.cs" />
@@ -52,6 +53,7 @@
     <Compile Include="Double\XinYTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Single\AtanTests.cs" />
+    <Compile Include="Single\CalculatorSingleFactoryTest.cs" />
     <Compile Include="Single\ExpTests.cs" />
     <Compile Include="Single\lnxTests.cs" />
     <Compile Include="Single\Log10Tests.cs" />

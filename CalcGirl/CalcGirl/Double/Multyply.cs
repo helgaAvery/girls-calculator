@@ -1,6 +1,6 @@
 ﻿namespace CalcGirl.Double
 {
-    class Multyply: ICalculator
+    public class Multyply: ICalculator
     {
         /// <summary>
         /// Функция умножения

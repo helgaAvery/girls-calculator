@@ -8,7 +8,7 @@ namespace CalcGirl.Tests.Single
     public class XinxTests
     {
         /// <summary>
-        /// Тест для функции возведения любого числа в квадрат
+        /// Тест для функции возведения любого числа в квадрат2000
         /// </summary>
         /// <param name="first"></param>
         /// <param name="expected"></param>

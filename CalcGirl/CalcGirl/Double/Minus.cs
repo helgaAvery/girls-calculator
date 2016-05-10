@@ -1,6 +1,6 @@
 ﻿namespace CalcGirl.Double
 {
-    class Minus: ICalculator
+    public class Minus: ICalculator
     {
         /// <summary>
         /// Функция вычитания

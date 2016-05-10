@@ -1,6 +1,6 @@
 ﻿namespace CalcGirl.Double
 {
-    class Divide: ICalculator
+   public class Divide: ICalculator
     {
         /// <summary>
         /// Функция делания
