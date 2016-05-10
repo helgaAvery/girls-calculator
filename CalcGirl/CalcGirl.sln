@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcGirl", "CalcGirl\CalcGi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcGirl.Tests", "CalcGirl.Tests\CalcGirl.Tests.csproj", "{39DDA2AA-DBCE-41FB-A470-C21050103E1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebInterface", "WebInterface\WebInterface.csproj", "{8FB7FA60-D530-4C1A-B9AC-268350233801}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{39DDA2AA-DBCE-41FB-A470-C21050103E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39DDA2AA-DBCE-41FB-A470-C21050103E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39DDA2AA-DBCE-41FB-A470-C21050103E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB7FA60-D530-4C1A-B9AC-268350233801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB7FA60-D530-4C1A-B9AC-268350233801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB7FA60-D530-4C1A-B9AC-268350233801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB7FA60-D530-4C1A-B9AC-268350233801}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
